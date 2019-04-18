@@ -3,21 +3,26 @@
 
 
 ## Overview
-This problem is designed to test the candidates comfort with cross-platform automation framework  
+This problem is designed to test your comfort with cross-platform automation frameworks.  
 
 ## Instructions
- Choose your favourite website and implement one or two automated tests. Create a fully functioning framework with it. It can be very simple but it has to be functioning
- Also implement automated tests (one or two test cases) on android app. The build for android app is provided in the repository.
+Choose a website and implement one or two automated tests.
+Choose an architecture for your test automation suite that would enable you to easily add further tests.
+It can be very simple but it has to be functioning.
+
+Also implement one or two automated tests for a native Android app.
+The android build and source code are provided in the repository.
+Your structure for android can either be similar or completely different to the one for web, it's up to you.
   
 
 ## Deliverables
-- Working automation framework with test cases on your choice of website. 
-- Working automation framework with test cases on provided android build.
-- A writeup/README describing your solutions, tools, and assumptions made.  Be as thorough as possible with your explanation.
+- Working test suite with test cases on your choice of website. 
+- Working test suite with test cases on provided android build.
+- A writeup/README describing your solutions, tools and why you chose them and any assumptions made.
+Please be as thorough as possible with your explanation.
 
-Once complete, please upload your solution on github and send link to the solutions to <insert email here> 
+Once complete, please upload your solution on github and send your link to the solutions back to your point of contact.
 
-**PLEASE NOTE, We encourage to keep your git history :) **
+**PLEASE NOTE, We encourage to keep your git history :)**
 
-Good luck, if you have any questions please mail <email address here>
-
+Good luck, if you have any questions please get in contact.
