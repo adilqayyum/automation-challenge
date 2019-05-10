@@ -24,7 +24,9 @@ user: 'arthur@gmail.com', password: '98765'
 - Working test suite with test cases on your choice of website.
 - Working test suite with test cases on provided android build.
 - A writeup/README describing your solutions, tools and why you chose them and any assumptions made.
-Please be as thorough as possible with your explanation.
+Please be as thorough as possible with your explanation. 
+    
+An example of the format of readme is added in this project, should you need to refer.
 
 Once complete, please upload your solution on github and send your link to the solutions back to your point of contact.
 
