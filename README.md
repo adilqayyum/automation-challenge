@@ -34,6 +34,8 @@ potential drawbacks.
 
 Please be as thorough as possible with your explanation.
 
+An example of the format of readme is added in this project, should you need to refer.
+
 Once complete, please upload your solution on github and send your link to the solutions back to your point of contact.
 
 **PLEASE NOTE, We encourage to keep your git history :)**
