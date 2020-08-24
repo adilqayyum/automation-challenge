@@ -13,4 +13,7 @@
     <string name="error_user_does_not_exist">Account does not exist</string>
     <string name="error_wrong_password">Wrong password</string>
     <string name="picture_of_a_house">Picture of a house</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Welcome!</string>
+    <string name="click_me">Click Me!</string>
 </resources>

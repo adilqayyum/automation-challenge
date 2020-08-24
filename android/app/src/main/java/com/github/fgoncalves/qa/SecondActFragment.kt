@@ -4,22 +4,21 @@ import android.os.Bundle
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
+import android.widget.Toast
 import androidx.databinding.DataBindingUtil
 import androidx.fragment.app.Fragment
-import androidx.navigation.fragment.findNavController
-import com.github.fgoncalves.qa.databinding.HomeScreenBinding
+import com.github.fgoncalves.qa.databinding.FragmentSecondActBinding
 
-class HomeFragment : Fragment() {
-
+class SecondActFragment : Fragment() {
     override fun onCreateView(
         inflater: LayoutInflater, container: ViewGroup?,
         savedInstanceState: Bundle?
     ): View? {
-        val binding: HomeScreenBinding = DataBindingUtil.inflate(
-            inflater, R.layout.home_screen, container, false
+        val binding: FragmentSecondActBinding = DataBindingUtil.inflate(
+            inflater, R.layout.fragment_second_act, container, false
         )
-        binding.OutOfHomeBtn.setOnClickListener {
-            findNavController().navigate(R.id.action_homeFragment_to_second_act)
+        binding.clickMeBtn.setOnClickListener{
+            Toast.makeText(activity, "Capture me while you can!", Toast.LENGTH_SHORT).show()
         }
         return binding.root
     }
