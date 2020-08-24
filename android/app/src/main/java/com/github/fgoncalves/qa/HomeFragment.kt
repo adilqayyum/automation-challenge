@@ -1,10 +1,10 @@
 package com.github.fgoncalves.qa
 
-import androidx.databinding.DataBindingUtil
 import android.os.Bundle
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
+import androidx.databinding.DataBindingUtil
 import androidx.fragment.app.Fragment
 import androidx.navigation.fragment.findNavController
 import com.github.fgoncalves.qa.databinding.HomeScreenBinding
@@ -24,5 +24,3 @@ class HomeFragment : Fragment() {
         return binding.root
     }
 }
-
-
